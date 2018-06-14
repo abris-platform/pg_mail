@@ -7,8 +7,7 @@ adapted for the SMTP-servers requesting  CRLF.CRLF for QUIT
 
 ### installation 
 
-apt-get install postgresql-pltcl-10
-
+- apt-get install postgresql-pltcl-10
 - CREATE LANGUAGE pltclu;
 - change <yourdatabaseaddress> and <yourmailserver> in pg_mail.sql
 - run pg_mail.sql
